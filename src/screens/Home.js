@@ -2,6 +2,7 @@ import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
 import {
+  AnimatedButton,
   PressableButton,
   SimpleButton,
   TouchableButton,
@@ -17,7 +18,7 @@ const Home = () => {
         message={'Simple button pressed!'}
         style={styles.wrapper}
       />
-      <VerticalSpacer />
+      <VerticalSpacer size={20} />
       <TouchableButton
         title={'Touchable Button'}
         message={'Touchable button pressed!'}
@@ -28,6 +29,11 @@ const Home = () => {
         title={'Pressable Button'}
         message={'Pressable button pressed!'}
         style={styles.wrapper}
+      />
+      <VerticalSpacer size={15} />
+      <AnimatedButton
+        title={'Animated Button'}
+        message={'Animated Button clicked!'}
       />
     </View>
   );
