@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import {
   Alert,
   Button,
+  Pressable,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -26,10 +27,36 @@ export default function App() {
         onPress={() => {
           Alert.alert('Touchable button pressed!');
         }}
+        disabled={false}
+        activeOpacity={0.6}
         style={[styles.wrapper, styles.touchableButton]}
       >
         <Text style={styles.textStyle}>Touchable Button</Text>
       </TouchableOpacity>
+      <View style={{ marginVertical: 10 }} />
+      <Pressable
+        onPress={() => {
+          Alert.alert('Pressable button pressed!');
+        }}
+      >
+        {({ pressed }) => (
+          <View
+            style={[
+              styles.wrapper,
+              { backgroundColor: pressed ? '#0476a0' : '#1146aa' },
+            ]}
+          >
+            <Text
+              style={[
+                styles.textStyle,
+                { color: pressed ? '#fafafa' : '#aaffaa' },
+              ]}
+            >
+              Pressable Button
+            </Text>
+          </View>
+        )}
+      </Pressable>
     </View>
   );
 }
