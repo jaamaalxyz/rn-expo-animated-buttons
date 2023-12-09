@@ -3,14 +3,14 @@
 A guide for implementing buttons in React Native and Expo using the React Native Reanimated library. Read the [full blog here](https://medium.com/devsorigin/crafting-accessible-and-animated-buttons-in-react-native-and-expo-app-a2633311c3bb).
 
 <div style="display:flex; flex-direction:row; flex-wrap: wrap;">
-  <img src="./screenshots/1.png" alt="Expo server started" />
-  <img src="./screenshots/2.png" alt="Changed the default UI" />
-  <img src="./screenshots/3.png" alt="Simple Button" />
-  <img src="./screenshots/4.png" alt="Button Text changed" />
-  <img src="./screenshots/5.png" alt="Add wrapper over the button" />
-  <img src="./screenshots/6.png" alt="Add a Touchable button" />
-  <img src="./screenshots/7.png" alt="Add a Pressable button" />
-  <img src="./screenshots/8.png" alt="Add a red color animated button with react-native-reanimated" />
+  <img src="./screenshots/1.png" alt="Expo server started" width="20%" height="20%" />
+  <img src="./screenshots/2.png" alt="Changed the default UI" width="20%" height="20%" />
+  <img src="./screenshots/3.png" alt="Simple Button" width="20%" height="20%" />
+  <img src="./screenshots/4.png" alt="Button Text changed" width="20%" height="20%" />
+  <img src="./screenshots/5.png" alt="Add wrapper over the button" width="20%" height="20%" />
+  <img src="./screenshots/6.png" alt="Add a Touchable button" width="20%" height="20%" />
+  <img src="./screenshots/7.png" alt="Add a Pressable button" width="20%" height="20%" />
+  <img src="./screenshots/8.png" alt="Add a red color animated button with react-native-reanimated" width="20%" height="20%" />
 </div>
 
 ## Project Setup & Available Scripts
