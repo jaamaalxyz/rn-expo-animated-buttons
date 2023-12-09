@@ -1,6 +1,6 @@
-# rn-expo-animated-buttons
+# [rn-expo-animated-buttons](https://medium.com/devsorigin/crafting-accessible-and-animated-buttons-in-react-native-and-expo-app-a2633311c3bb)
 
-A guide for implementing buttons in React Native and Expo using the React Native Reanimated library
+A guide for implementing buttons in React Native and Expo using the React Native Reanimated library. Read the [full blog here](https://medium.com/devsorigin/crafting-accessible-and-animated-buttons-in-react-native-and-expo-app-a2633311c3bb).
 
 <div style="display:flex; flex-direction:row; flex-wrap: wrap;">
   <img src="./screenshots/1.png" alt="Expo server started" />
@@ -15,22 +15,22 @@ A guide for implementing buttons in React Native and Expo using the React Native
 
 ## Project Setup & Available Scripts
 
-- Clone the repo on local machine and before running below scripts make sure that you have `Node.js` and `npm` or `yarn` installed globally.
+- Clone the repo on the local machine and before running the below scripts make sure that you have `Node.js` and `npm` or `yarn` installed globally.
 - Install packages
 
-```shell
+``` shell
 npm install
 ```
 
 - Run the Expo Server
 
-```shell
+``` shell
 npx expo start
 ```
 
-- Open an iOS simulator press `i`
-- Open an Android emulator press `a`
-- Scan QR Code to Run the app on physical device via **Expo Go** app
+- Open an iOS simulator to press `i`
+- Open an Android emulator to press `a`
+- Scan the QR Code to Run the app on the physical device via the **Expo Go** app
 
 ## Contributing Guideline
 
