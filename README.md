@@ -15,14 +15,18 @@ A guide for implementing buttons in React Native and Expo using the React Native
 
 ## Project Setup & Available Scripts
 
-- Clone the repo on the local machine and before running the below scripts make sure that you have `Node.js` and `npm` or `yarn` installed globally.
-- Install packages
+Clone the repo on the local machine and before running the below scripts make sure that you have `Node.js` and `npm` or `yarn` installed globally. Don't know how to get started with `React Native` and `Expo` follow the below guide:
+- React Native Official Guide to [Setting up the Development Environment](https://reactnative.dev/docs/environment-setup)
+- Expo Docs to [Create your first app with React Native and Expo](https://docs.expo.dev/tutorial/create-your-first-app/)
+- a straightforward guide to [Building Your First Mobile App with React Native and Expo](https://medium.com/devsorigin/building-your-first-mobile-app-with-react-native-and-expo-a-comprehensive-guide-249d2a61a265)
+
+### Install packages
 
 ``` shell
 npm install
 ```
 
-- Run the Expo Server
+### Run the Expo Server
 
 ``` shell
 npx expo start
